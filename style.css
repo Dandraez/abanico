@@ -1,0 +1,19 @@
+body {
+  background-color: #161216;
+}
+#principalContainer {
+  background-color: antiquewhite;
+  width: 50%;
+  padding: 3rem;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  display: block;
+  margin: auto;
+}
+p {
+  text-align: center;
+}
