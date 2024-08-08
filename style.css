@@ -1,28 +1,54 @@
 body {
   background-color: #161216;
-  font-size: 24px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #principalContainer {
   background-color: antiquewhite;
-  width: 40vw;
+  width: max-content;
   padding: 3em;
   margin: 3em auto;
   border-radius: 1em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #logoAbanico {
   display: block;
-  height: 3em;
+  height: 2em;
   margin: auto;
 }
-p {
+h1 {
   text-align: center;
+  margin-bottom: 0.6em;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+#description {
+  text-align: left;
+  margin-bottom: 0;
 }
 
 @media (orientation: portrait) {
   #principalContainer {
-    font-size: 48px;
+    font-size: 40px;
     width: 80vw;
-    padding: 1em;
+    padding: 3em 1em;
   }
 }
