@@ -18,8 +18,8 @@ p {
   text-align: center;
 }
 
-@media screen {
-  principalContainer {
+@media screen and (max-width: 500px) {
+  #principalContainer {
     font-size: 48px;
   }
 }
