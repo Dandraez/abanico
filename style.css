@@ -44,6 +44,9 @@ p {
   text-align: left;
   margin-bottom: 0;
 }
+#link {
+  text-align: right;
+}
 
 @media (orientation: portrait) {
   #principalContainer {
