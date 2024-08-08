@@ -18,7 +18,7 @@ p {
   text-align: center;
 }
 
-@media screen and (max-width: 1080px) {
+@media (orientation: portrait) {
   #principalContainer {
     font-size: 48px;
   }
