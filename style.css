@@ -1,17 +1,18 @@
 body {
   background-color: #161216;
-  font-size: 16px;
+  font-size: 24px;
 }
 #principalContainer {
   background-color: antiquewhite;
-  width: 50vw;
+  width: 40vw;
   padding: 3em;
   margin: 3em auto;
   border-radius: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-img {
+#logoAbanico {
   display: block;
+  height: 3em;
   margin: auto;
 }
 p {
@@ -21,6 +22,7 @@ p {
 @media (orientation: portrait) {
   #principalContainer {
     font-size: 48px;
-    padding: 2em;
+    width: 80vw;
+    padding: 1em;
   }
 }
