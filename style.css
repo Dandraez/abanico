@@ -38,7 +38,7 @@ a {
 }
 .subsec1 {
   display: inline-block;
-  width: 20em;
+  width: 18em;
 }
 .subsec2 {
   display: inline-block;
@@ -69,7 +69,10 @@ a {
     width: 80vw;
     padding: 3em 1em;
   }
+  .subsec1{
+    width: 70vw;
+  }
   #name {
-  font-size: 1.4em;
+  font-size: 1.3em;
   }
 }
