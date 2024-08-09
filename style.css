@@ -69,7 +69,10 @@ a {
     width: 80vw;
     padding: 3em 1em;
   }
+  .subsec1{
+  width: 60vw;
+  }
   #name {
-  font-size: 1.3em;
+  font-size: 1.4em;
   }
 }
