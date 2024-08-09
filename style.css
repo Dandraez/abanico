@@ -69,4 +69,7 @@ a {
     width: 80vw;
     padding: 3em 1em;
   }
+  #name {
+  font-size: 1.3em;
+  }
 }
