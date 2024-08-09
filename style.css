@@ -21,18 +21,13 @@ h1 {
   font-weight: 500;
   font-size: 1.4em;
 }
-h2 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0.3em;
-  text-align: left;
-  font-weight: 500;
-  font-size: 1.2em;
-}
 p {
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   text-align: center;
+}
+a {
+  text-decoration: none;
 }
 
 #card {
@@ -40,12 +35,29 @@ p {
   border-radius: 1em;
   padding: 1em;
 }
-#description {
+.subsec {
+  display: inline-block;
+}
+#name {
   text-align: left;
-  margin-bottom: 0;
+}
+#description {
+  color: grey;
+  font-size: 0.9em;
+  text-align: left;
+}
+#directions {
+  margin: 0;
+  width: 2.5em;
 }
 #link {
-  text-align: right;
+  margin-left: 1em;
+}
+#ir {
+  margin: 0;
+  color: grey;
+  font-size: 0.9em;
+  margin-left: 1em;
 }
 
 @media (orientation: portrait) {
