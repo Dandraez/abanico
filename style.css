@@ -34,9 +34,15 @@ a {
   background-color: white;
   border-radius: 1em;
   padding: 1em;
+  margin-bottom: 1em;
 }
-.subsec {
+.subsec1 {
   display: inline-block;
+  width: 16.8em;
+}
+.subsec2 {
+  display: inline-block;
+  margin-left: 1em;
 }
 #name {
   text-align: left;
@@ -50,14 +56,10 @@ a {
   margin: 0;
   width: 2.5em;
 }
-#link {
-  margin-left: 1em;
-}
 #ir {
   margin: 0;
   color: grey;
   font-size: 0.9em;
-  margin-left: 1em;
 }
 
 @media (orientation: portrait) {
